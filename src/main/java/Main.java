@@ -1,10 +1,12 @@
-import day.day2.Day2;
+import day.Day;
+import day.day3.Day3;
 
 public class Main {
 
     public static void main(String[] args) {
-        new Day2().part1();
-        new Day2().part2();
+        final Day day = new Day3();
+        day.part1();
+        day.part2();
     }
 
 }
