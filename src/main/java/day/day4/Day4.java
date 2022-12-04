@@ -24,7 +24,7 @@ public class Day4 extends Day {
     }
 
     private Set<Integer> genRange(String s) {
-        final var set = new HashSet<Integer>(0);
+        final var set = new HashSet<Integer>();
         for (int i = Integer.parseInt(s.split("-")[0]); i <= Integer.parseInt(s.split("-")[1]); i++) {
             set.add(i);
         }
