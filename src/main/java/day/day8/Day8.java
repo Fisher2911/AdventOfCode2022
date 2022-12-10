@@ -125,8 +125,7 @@ public class Day8 extends Day {
         }
     }
 
-    private static record Point(int y, int x) {
-    }
+    private static record Point(int y, int x) { }
 
     private static record Tree(Point point, int height) {
 
