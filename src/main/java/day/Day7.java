@@ -1,4 +1,4 @@
-package day.day7;
+package day;
 
 import day.Day;
 
